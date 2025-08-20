@@ -225,17 +225,17 @@ namespace DemoA03H
             #endregion
             #endregion
             #region Generic collection [sortedset]
-            SortedSet<int> numbers = new SortedSet<int>(new IntCompare());
-            numbers.Add(4);
-            numbers.Add(8);
-            numbers.Add(2);
-            numbers.Add(6);
-            Console.WriteLine(numbers.Max());
-            Console.WriteLine(numbers.Min());
-            foreach (var item in numbers)
-            {
-                Console.WriteLine(item);
-            }
+            //SortedSet<int> numbers = new SortedSet<int>(new IntCompare());
+            //numbers.Add(4);
+            //numbers.Add(8);
+            //numbers.Add(2);
+            //numbers.Add(6);
+            //Console.WriteLine(numbers.Max());
+            //Console.WriteLine(numbers.Min());
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #endregion
